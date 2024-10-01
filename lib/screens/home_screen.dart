@@ -17,7 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
   bool _isSearchActive = false; // Toggle search bar visibility
   final TextEditingController _searchController = TextEditingController();
   int _selectedIndex = 0; // Track the selected index of the BottomNavigationBar
-  String _selectedMenuItem = 'New'; // Track selected menu item
+  String _selectedMenuItem = 'New '; // Track selected menu item
 
   void _onItemTapped(int index) {
     setState(() {
